@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fontd';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(107, 194, 136);
+    margin: 0px;
+}
+
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(20, 196, 87);
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+header > p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+   
+}
+
+
+nav > a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 90px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.267);
+}
+
+.fontan {
+    font-family: 'fontd', Arial, Helvetica, sans-serif;
+    color: green;
+}
+.backg {
+    font-size: 20px;
+    background-color: rgba(0, 128, 0, 0.212);
+}
+
+#assuntos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+div {
+    background-color: rgb(3, 82, 3);
+    padding: 20px;
+    margin: 0px;
+}
+
+.centerc {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    
+}
+
+.caixinha {
+    text-align: justify;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fundo {
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    background-color: rgba(32, 190, 32, 0.445);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.splitlist {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+
+.splitlist ul {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.splitlist ul:first-child {
+    border-right: 1px solid #ccc;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+.imagecontainer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsiveimg {
+    max-width: 100%;
+    height: auto;
+}

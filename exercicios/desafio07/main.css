@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+    margin: 10%;
+    padding: 10%;
+}
+
+.social-btns {
+transition: all 0.35s;
+transition-timing-function: cubic-bezier (8.31, -0.105, 0.43, 1.59);
+}
+
+body {
+    font-size: 74px;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+.social-btns .btn:before {
+top: 90%; 
+left: -110%;
+}
+
+/*.social-btns {
+transform: scale(0.8);
+} 
+
+.social-btns .btnfacebook:before {
+background-color: #3B5998;
+}
+
+.social-btns .btnfacebook .fa {
+color: #365998;
+}
+
+.social-btns .btntwitter:before {
+background-color: #3cf;
+}
+
+.social-btns .btntwitter .fa {
+color: #3ef;
+}
+
+.social-btns .btngoogle:before {
+background-color: #dc4a38;
+}
+
+.social-btns .btngoogle.fa {
+color: #dc4a38;
+}
+
+.social-btns .btndribbble:before { 
+background-color: #f26798;
+}
+
+.social-btns .btndribbble .fa {
+color: #f26798; 
+}
+
+.social-btns .btnskype:before {
+background-color: #effe;
+}
+
+social-btn.btnskype.fa {
+color: #00affe;
+}
+
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+    top: -10%; 
+    left: -10%;
+}
+
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+    color: #fff; transform: scale(1);
+}
+
+.social-btns { 
+    height: 90px;
+    margin: auto;
+    font-size: 0;
+    text-align: center; 
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+.social-btns btn {
+     display: inline-block;
+    background-color: #fff; 
+    width: 90px; 
+    height: 90px;
+    Line-height: 99px;
+    margin: 10px;
+    position: relative; 
+    overflow: hidden;
+    text-align: center; 
+    border-radius: 28%; 
+    box-shadow: 0 5px 15px 5px rgba(0,0,0,0.1);
+    opacity: 0.99;
+}
+
+.social-btn btn:before {
+    content: "";
+    width: 120%; 
+    height: 120%; 
+    position: absolute;
+    transform: rotate(45deg);
+}    
+
+.social-btn .btn.fa {
+    font-size: 38px;
+    vertical-align: middle;
+}
+*/
